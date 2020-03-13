@@ -13,8 +13,10 @@ nav {
 nav img {
     padding-top: 4px;
 }
-
-
+nav ul li a {
+    text-decoration:none ;
+    color: cornsilk;
+}
 ul {
     margin: 0;
     padding-top: 16px;
@@ -26,6 +28,27 @@ li {
     list-style-type: none;
     display: inline-block;
     padding: 0 8px;
+}
+section {
+    padding: 40px;
+}
+#Hero {
+    display: flex;
+}
+#Info {
+    width: 60%;
+}
+#Info p {
+    padding-right: 25px;
+    line-height: 25px;
+    font-size: 13px;
+}
+#Gambar {
+    width: 40%;
+}
+#Gambar img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 
