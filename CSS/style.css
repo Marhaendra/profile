@@ -10,6 +10,17 @@ nav {
     background-color: cornflowerblue;
     color: cornsilk;
 }
+nav img {
+    padding-top: 4px;
+}
+
+
+ul {
+    margin: 0;
+    padding-top: 16px;
+    float: right;
+    padding-right: 16px;
+}
 
 li {
     list-style-type: none;
