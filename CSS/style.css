@@ -13,11 +13,12 @@ nav {
     height: 65px;
     padding: 0 10px;
     background-color:white;
-    color: white;
+    color:white;
     position: fixed;
 }
 nav img {
     padding-top: 4px;
+    position: fixed;
 }
 nav li {
     text-decoration:none ;
@@ -49,12 +50,21 @@ section {
 #Hero {
     display: flex;
 }
+nav img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+    border-radius: 100px;
+    padding: 2px;
+}
 #Info {
-    width: 60%;
+    position: fixed;
+    width: 20%;
 }
 #Info p {
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     right: 25px;
     font-size: 50px;
     background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
@@ -70,13 +80,24 @@ section {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-#Gambar {
-    width: 40%;
+#Info h4 {
+    position: relative;
+    right: 25px;
+    bottom: 60px;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-#Gambar img {
-    position: right top;
-    width: 45%;
+#Info img {
+    box-align: center;
+    width: 70%;
     border-radius: 20px;
+}
+#Tab {
+    position: relative;
+    left: 250px;
+    width: 80%;
 }
 #Keahlian {
     text-align: center;
