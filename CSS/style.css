@@ -91,15 +91,11 @@ nav img {
 }
 #Info img {
     box-align: center;
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
 }
-#Tab {
-    position: relative;
-    left: 250px;
-    width: 80%;
-}
 #Keahlian {
+    width: 115%;
     text-align: center;
     background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
 	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
@@ -107,6 +103,7 @@ nav img {
 	-webkit-text-fill-color: transparent;
 }
 #Tentang {
+    width: 115%;
     text-align: center;
     background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
 	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
@@ -114,6 +111,7 @@ nav img {
 	-webkit-text-fill-color: transparent;
 }
 #Kontak {
+    width: 115%;
     text-align: center;
     background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
 	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
