@@ -6,20 +6,30 @@ body  {
     padding: 0;
     font-family: 'Encode Sans', sans-serif;
 }
+
 nav {
+    padding: 40px;
     width: 100%;
-    height: 60px;
-    padding: 0 16px;
-    background-color: cornflowerblue;
-    color: cornsilk;
+    height: 65px;
+    padding: 0 10px;
+    background-color:white;
+    color: white;
     position: fixed;
 }
 nav img {
     padding-top: 4px;
 }
-nav ul li a {
+nav li {
     text-decoration:none ;
-    color: cornsilk;
+    background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 ul {
     margin: 0;
@@ -43,19 +53,52 @@ section {
     width: 60%;
 }
 #Info p {
-    padding-right: 25px;
-    line-height: 25px;
-    font-size: 13px;
+    position: relative;
+    bottom: 30px;
+    right: 25px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#Info h1 {
+    position: relative;
+    right: 25px;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 #Gambar {
     width: 40%;
 }
 #Gambar img {
-    width: 100%;
+    position: right top;
+    width: 45%;
     border-radius: 20px;
 }
-#no-body {
-    height: 60px;
+#Keahlian {
+    text-align: center;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
+#Tentang {
+    text-align: center;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#Kontak {
+    text-align: center;
+    background: -webkit-linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	background: linear-gradient(to right, rgb(100, 149, 237), rgb(229, 59, 81));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 
 
