@@ -141,6 +141,10 @@ nav img {
     position: relative;
     left: 450px;
 }
+#Tentang img {
+    position: relative;
+    left: 300px;
+}
 #Kontak {
     width: 65%;
     padding-left: 550px;
